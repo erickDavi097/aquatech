@@ -1,29 +1,29 @@
 /* Adicionar aqui toda a estilização criada para sua aplicação. */
 body{
     margin: 0;
-    font-family: sans-serif;
+    font-family: sans-serif
 }
 
 :root{
     --azul: #32B9CD;
-    --amarelo: #E3B062;
+    --amarelo: #E3B062
 }
 
 /*HEADER*/
 .header{
     background-color: black;
-    border-bottom: 3px solid var(--azul);
+    border-bottom: 3px solid var(--azul)
 }
 
 .header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 120px;
+    padding: 0 120px
 }
 
 .titulo{
-    color: var(--azul);
+    color: var(--azul)
 }
 
 .navbar{
@@ -31,25 +31,25 @@ body{
     justify-content: space-between;
     color: var(--amarelo);
     list-style: none;
-    width: 300px;
+    width: 300px
 }
 
 .navbar a{
     color: var(--amarelo);
-    text-decoration: none;
+    text-decoration: none
 }
 
 .agora{
-    font-weight: bolder;
+    font-weight: bolder
 }
 
 /*BANNER*/
 
 .banner{
-    height: 400px;
+    height: 100%;
     width: 100%;
     background-image: url(../assets/imgs/bg-jelly-fish-para-home.png);
-    background-size: cover;
+    background-size: cover
 }
 
 .banner .container{
@@ -57,18 +57,18 @@ body{
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center
 }
 
 .banner .container p{
     width: 170px;
     margin: 0;
     color: white;
-    font-size: 24px;
+    font-size: 24px
 }
 
 .banner .container span{
-    font-weight: bolder;
+    font-weight: bolder
 }
 
 /*MISSÃO VISÃO VALORES*/
@@ -76,7 +76,7 @@ body{
 .social{
     height: 400px;
     width: 100%;
-    background-color: #DCDCDC;
+    background-color: #DCDCDC
 }
 
 .social .container{
@@ -84,14 +84,14 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center
 }
 
 .boxes{
     width: 80%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center
 }
 
 .box{
@@ -100,18 +100,18 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: center
 }
 
 .box img{
     width: 120px;
-    height: 120px;
+    height: 100%
 }
 
 .box h4{
     margin: 0;
     margin-top: 10px;
-    color: #E4005A;
+    color: #E4005A
 }
 
 /*FOOTER*/
@@ -119,7 +119,7 @@ body{
 .footer{
     height: 120px;
     width: 100%;
-    background-color: var(--azul);
+    background-color: var(--azul)
 }
 
 .footer .container{
@@ -132,5 +132,92 @@ body{
 }
 
 .footer h4{
-    margin-bottom: 0;
+    margin-bottom: 0
+}
+
+
+
+
+/*login*/
+.card-login{
+    width: 650px;
+    background-color: #dcdcdc;
+    padding: 15px 15px 0 15px;
+    margin: 137px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px
+}
+
+.campo span{
+    color: #e4005a;
+    font-weight: bolder;
+    margin-top: 10px
+}
+
+.card-login h2{
+    margin: 15px 0 10px 0;
+    color: #e4005a
+}
+.formulario, .campo{
+    width: 90%;
+    display: flex;
+    flex-direction: column
+}
+
+.campo input{
+    width: 110%;
+    border: 2px solid var(--azul);
+    border-radius: 10px;
+    height: 30px;
+    text-align: center
+}
+.login{
+    height: 620px
+}
+
+.botao{
+    color: #fff;
+    background-color: #e4005a;
+    width: 100px;
+    align-self: center;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 15px 0
+}
+
+.login .container{
+    background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%
+}
+
+.footer-login{
+    height: 28px;
+    background-color: var(--azul);
+    align-self: flex-end
+}
+
+/*cadastro*/
+.card-cadastro h2{
+    color: #e4005a;
+    margin-top: 10px;
+    margin-bottom: 0
+}
+.card-cadastro{
+    background-color: #dcdcdc;
+    width: 650px;
+    padding: 15px 15px 0 15px;
+    margin: 48.5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px
 }
